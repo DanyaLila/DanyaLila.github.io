@@ -1,0 +1,44 @@
+.profile {
+    background-color: #DCDCDC;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.avatar img {
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.headProfile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoProfile {
+    display: flex;
+}
+.infoItems p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoProfile p{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.description p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+.descriptionBio {
+    font-weight: 600;
+}
+.infoText {
+    font-weight: 600;
+}

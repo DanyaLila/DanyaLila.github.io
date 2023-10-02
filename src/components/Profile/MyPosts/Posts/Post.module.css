@@ -1,0 +1,63 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.avatar img {
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.userName {
+  font-weight: 500;
+}
+.dataPost {
+  color: #969696;
+}
+.itemPost {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.postImg img {
+  width: 500px;
+  border-radius: 30px;
+}
+.postImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #969696;*/
+}
+.description {
+  margin: 10px;
+  margin-top: 20px;
+}
+.btn{
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.btnItem {
+  font-size: 17px;
+  cursor: pointer;
+}
+.btnLike {
+  font-size: 20px;
+}
+.btnLike:hover {
+  color: red;
+}
+.btnComRep{
+  font-size: 20px;
+}
+.btnComRep:hover {
+  color: rgb(69, 179, 235);
+}

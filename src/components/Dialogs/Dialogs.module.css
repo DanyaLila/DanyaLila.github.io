@@ -1,0 +1,33 @@
+.mainMessenger {
+    background-color: #DCDCDC;
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.messages {
+    background-color: #fff;
+    width: 100vh;
+    border-radius: 20px;
+    padding: 20px;
+}
+.dialog img {
+    width: 40px;
+    border-radius: 20px;
+}
+.dialog a{
+    text-decoration: none;
+    color: #000000;
+}
+.dialog {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: #bebdbd;
+    border-radius: 8px;
+    align-items: center;
+}
+.dialogs {
+    display: flex;
+    flex-direction: column;
+}

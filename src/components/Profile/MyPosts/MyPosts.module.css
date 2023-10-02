@@ -1,0 +1,22 @@
+.posts {
+    /* background-color: bisque; */
+}
+
+.actionPost {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.actionBtn {
+    color: #000000;
+    font-size: 1.1em;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #969696;
+    text-decoration: none;
+}
+.actionBtn:hover {
+    background-color: #a8a8a8;
+}
